@@ -6,7 +6,7 @@
     },
     {
       "name": "About",
-      "url": "/"
+      "url": "/about"
     },
     {
       "name": "Blog",
@@ -27,7 +27,7 @@
       "menu": [
         {
           "text": "About",
-          "url": "#"
+          "url": "/about"
         },
         {
           "text": "Team",

@@ -34,7 +34,7 @@ const Footer = () => {
           <div className="md-12 sm:col-6 lg:col-3">
             <Link href="/" aria-label="Bigspring">
               <Image
-                src={config.site.logo}
+                src={config.site.logo_footer}
                 width={config.site.logo_width}
                 height={config.site.logo_height}
                 alt=""

@@ -3,7 +3,7 @@ import Base from "@layouts/Baseof";
 import Contact from "@layouts/Contact";
 import Default from "@layouts/Default";
 import Faq from "@layouts/Faq";
-import About from "@layouts/About"
+import About from './About'
 import Pricing from "@layouts/Pricing";
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
 
