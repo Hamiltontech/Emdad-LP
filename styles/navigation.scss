@@ -1,14 +1,14 @@
 .header {
-  @apply bg-white py-[14px] px-4 md:px-0 md:py-[14px];
+  @apply bg-black/30 py-[14px] px-4 md:px-0 md:py-[14px] fixed w-[100%] z-50;
 }
 
 // navbar items
 .navbar {
-  @apply relative flex flex-wrap items-center justify-between;
+  @apply  flex flex-wrap items-center justify-between text-white;
 }
 
 .navbar-brand {
-  @apply text-xl font-semibold text-dark;
+  @apply text-xl font-semibold text-white;
 
   image {
     @apply max-h-full max-w-full;
@@ -32,9 +32,9 @@
 }
 
 .nav-link {
-  @apply py-3 px-2 font-primary text-base font-bold text-dark transition hover:text-secondary md:py-4 lg:px-3;
+  @apply py-3 px-2  text-base font-light text-white transition hover:text-secondary md:py-4 lg:px-3;
 
   &-active {
-    @apply text-primary;
+    @apply text-white;
   }
 }

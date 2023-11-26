@@ -23,7 +23,7 @@ const Header = () => {
     <header className="header">
       <nav className="navbar mx-auto max-w-[1300px] px-4">
         {/* logo */}
-        <div className="order-0 -mt-8">
+        <div className="order-0 -mt-4">
           <Logo src={logo} />
         </div>
 

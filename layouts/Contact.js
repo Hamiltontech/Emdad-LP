@@ -7,8 +7,8 @@ const Contact = ({ data }) => {
   const { contact_form_action } = config.params;
 
   return (
-    <section className="section">
-      <div className="container">
+    <section className="section ">
+      <div className="container pt-12">
         {markdownify(title, "h1", "text-center font-normal")}
         <div className="section row pb-0">
           <div className="col-12 md:col-6 lg:col-7">
